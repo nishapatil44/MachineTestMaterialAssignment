@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+#sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+#sidebar ul li:hover {
+    background-color: #555;
+}
+#content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.data-list {
+    margin-top: 20px;
+}
+.data-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.data-list th, .data-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.data-list th {
+    background-color: #f2f2f2;
+}
+.data-list td button {
+    cursor: pointer;
+    margin-right: 5px;
+}
